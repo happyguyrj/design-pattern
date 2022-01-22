@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="726e75fa-7433-42e0-a106-f0e6d0653946" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../1factory/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1factory/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1factory/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1factory/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1factory/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1factory/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1factory/src/main/java/com/example/factory/FactoryApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1factory/src/main/java/com/example/factory/domain/Button.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1factory/src/main/java/com/example/factory/domain/HtmlButton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1factory/src/main/java/com/example/factory/domain/WindowsButton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1factory/src/main/java/com/example/factory/factory/Dialog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1factory/src/main/java/com/example/factory/factory/HtmlDialog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1factory/src/main/java/com/example/factory/factory/WindowsDialog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1factory/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1factory/src/test/java/com/example/factory/FactoryApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2abstract_factory/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2abstract_factory/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2abstract_factory/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2abstract_factory/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2abstract_factory/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2abstract_factory/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2abstract_factory/src/main/java/com/example/factory/FactoryApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2abstract_factory/src/main/java/com/example/factory/app/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2abstract_factory/src/main/java/com/example/factory/domain/buttons/Button.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2abstract_factory/src/main/java/com/example/factory/domain/buttons/MacOsButton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2abstract_factory/src/main/java/com/example/factory/domain/buttons/WindowsButton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2abstract_factory/src/main/java/com/example/factory/domain/checkboxes/Checkbox.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2abstract_factory/src/main/java/com/example/factory/domain/checkboxes/MacOsCheckbox.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2abstract_factory/src/main/java/com/example/factory/domain/checkboxes/WindowsCheckbox.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2abstract_factory/src/main/java/com/example/factory/factory/GuiFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2abstract_factory/src/main/java/com/example/factory/factory/MacOsFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2abstract_factory/src/main/java/com/example/factory/factory/WindowsFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2abstract_factory/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2abstract_factory/src/test/java/com/example/factory/FactoryApplicationTests.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="242kUswK26yiwAITnYYf8IKP8Pi" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="PrototypeApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.prototype.PrototypeApplication" />
+      <module name="prototype" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.prototype.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.PrototypeApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="726e75fa-7433-42e0-a106-f0e6d0653946" name="Changes" comment="" />
+      <created>1642836100902</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1642836100902</updated>
+    </task>
+    <servers />
+  </component>
+</project>

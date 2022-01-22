@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="726e75fa-7433-42e0-a106-f0e6d0653946" name="Changes" comment="">
+    <list default="true" id="41943516-23d1-44ae-b60a-ed777926bca1" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/../1factory/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../1factory/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../1factory/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
@@ -39,6 +39,51 @@
       <change beforePath="$PROJECT_DIR$/../2abstract_factory/src/main/java/com/example/factory/factory/WindowsFactory.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../2abstract_factory/src/main/resources/application.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../2abstract_factory/src/test/java/com/example/factory/FactoryApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3builder/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3builder/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3builder/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3builder/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3builder/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3builder/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3builder/src/main/java/com/example/builder/BuilderApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3builder/src/main/java/com/example/builder/builders/Builder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3builder/src/main/java/com/example/builder/builders/CarBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3builder/src/main/java/com/example/builder/builders/CarManualBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3builder/src/main/java/com/example/builder/cars/Car.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3builder/src/main/java/com/example/builder/cars/CarType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3builder/src/main/java/com/example/builder/cars/Manual.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3builder/src/main/java/com/example/builder/components/Engine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3builder/src/main/java/com/example/builder/components/GPSNavigator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3builder/src/main/java/com/example/builder/components/Transmission.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3builder/src/main/java/com/example/builder/components/TripComputer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3builder/src/main/java/com/example/builder/director/Director.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3builder/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3builder/src/test/java/com/example/builder/BuilderApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4prototype/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4prototype/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4prototype/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4prototype/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4prototype/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4prototype/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4prototype/src/main/java/com/example/prototype/PrototypeApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4prototype/src/main/java/com/example/prototype/shape/Circle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4prototype/src/main/java/com/example/prototype/shape/Rectangle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4prototype/src/main/java/com/example/prototype/shape/Shape.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4prototype/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4prototype/src/test/java/com/example/prototype/PrototypeApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/singleton/MultiThreadedSingleton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/singleton/SingleThreadedSingleton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/singleton/SingletonApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/singleton/ThreadSafeSingleton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/singleton/SingletonApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../structural/4prototype/.idea/workspace.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +111,7 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectId" id="242kUswK26yiwAITnYYf8IKP8Pi" />
+  <component name="ProjectId" id="242m8rjXaR1ZBUAsbwbn2c5OmE6" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -76,13 +121,18 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.singleton" />
+    </key>
+  </component>
   <component name="RunManager">
-    <configuration name="PrototypeApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.prototype.PrototypeApplication" />
-      <module name="prototype" />
+    <configuration name="SingletonApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.singleton.SingletonApplication" />
+      <module name="singleton" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.prototype.*" />
+          <option name="PATTERN" value="com.example.singleton.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,18 +142,18 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.PrototypeApplication" />
+        <item itemvalue="Application.SingletonApplication" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="726e75fa-7433-42e0-a106-f0e6d0653946" name="Changes" comment="" />
-      <created>1642836100902</created>
+      <changelist id="41943516-23d1-44ae-b60a-ed777926bca1" name="Changes" comment="" />
+      <created>1642836904641</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1642836100902</updated>
+      <updated>1642836904641</updated>
     </task>
     <servers />
   </component>

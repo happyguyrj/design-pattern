@@ -7,6 +7,9 @@
 - Logictics company
 - Cross platform UI
 - OS App
+- Shape App
+![image](https://user-images.githubusercontent.com/15718435/153057788-c9e778f3-5395-41cf-8eef-0b36dec5aeed.png)
+
 ## Applicability
 Use the Factory Method when you
     - don’t know beforehand the exact types and dependencies of the objects your code should work with.
@@ -30,6 +33,9 @@ Use the Factory Method when you
 - The first thing the Abstract Factory pattern suggests is to explicitly declare interfaces for each distinct product of the product family (e.g., chair, sofa or coffee table). Then you can make all variants of products follow those interfaces.
 ## Examples
 - Furniture shop simulator
+- Shape app
+![image](https://user-images.githubusercontent.com/15718435/153057833-2d30a544-7ae6-4c7d-883a-e47e126e00fe.png)
+
 ## Applicability
 - Use the Abstract Factory when your code needs to work with various families of related products, but you don’t want it to depend on the concrete classes of those products—they might be unknown beforehand or you simply want to allow for future extensibility.
 ## How to Implement
@@ -48,6 +54,9 @@ Use the Factory Method when you
 ## Examples
 - Car Builder
 - House Builder
+- Meal Package
+![image](https://user-images.githubusercontent.com/15718435/153057912-322c793c-6d18-45a7-bd53-e1a65aaf65d7.png)
+
 ## Applicability
 - Use the Builder pattern to get rid of a “telescopic constructor”.
 - Use the Builder pattern when you want your code to be able to create different representations of some product (for example, stone and wooden houses).
@@ -69,6 +78,8 @@ Use the Factory Method when you
 The Prototype pattern delegates the cloning process to the actual objects that are being cloned. The pattern declares a common interface for all objects that support cloning. This interface lets you clone an object without coupling your code to the class of that object. Usually, such an interface contains just a single clone method.
 ## Examples
 - Shape copy
+![image](https://user-images.githubusercontent.com/15718435/153058020-199212ec-0814-4656-b14b-e67519222330.png)
+
 ## Applicability
 - Use the Prototype pattern when your code shouldn’t depend on the concrete classes of objects that you need to copy.
 - Use the pattern when you want to reduce the number of subclasses that only differ in the way they initialize their respective objects. Somebody could have created these subclasses to be able to create objects with a specific configuration.
@@ -90,7 +101,8 @@ The Prototype pattern delegates the cloning process to the actual objects that a
 - Make the default constructor private, to prevent other objects from using the new operator with the Singleton class.
 - Create a static creation method that acts as a constructor. Under the hood, this method calls the private constructor to create an object and saves it in a static field. All following calls to this method return the cached object.
 ## Examples
--
+![Uploading image.png…]()
+
 ## Applicability
 - Use the Singleton pattern when a class in your program should have just a single instance available to all clients; for example, a single database object shared by different parts of the program.
 - Use the Singleton pattern when you need stricter control over global variables.

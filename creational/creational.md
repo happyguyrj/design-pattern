@@ -1,4 +1,5 @@
 # Factory Method (Virtual Constructor)
+- create object without exposing the creation logic to the client and refer to newly created object using a common interface
 - provides an interface for creating objects in a superclass, but allows subclasses to alter the type of objects that will be created.
 ## Solution
 - The Factory Method pattern suggests that you replace direct object construction calls (using the new operator) with calls to a special factory method.
@@ -21,6 +22,10 @@ Use the Factory Method when you
 
 # Abstract Factory
 - lets you produce families of related objects without specifying their concrete classes.
+- work around a super-factory which creates other factories
+- also called as factory of factories
+- an interface is responsible for creating a factory of related objects without explicitly specifying their classes
+
 ## Solution
 - The first thing the Abstract Factory pattern suggests is to explicitly declare interfaces for each distinct product of the product family (e.g., chair, sofa or coffee table). Then you can make all variants of products follow those interfaces.
 ## Examples

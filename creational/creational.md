@@ -41,63 +41,68 @@ Use the Factory Method when you
     - Single Responsibility Principle. You can extract the product creation code into one place, making the code easier to support.
     - Open/Closed Principle. You can introduce new variants of products without breaking existing client code.
 
-Builder
-- lets you construct complex objects step by step. The pattern allows you to produce different types and representations of an object using the same construction code.
-- Examples
-    - Car Builder
-    - House Builder
-- Applicability
-    - Use the Builder pattern to get rid of a “telescopic constructor”.
-    - Use the Builder pattern when you want your code to be able to create different representations of some product (for example, stone and wooden houses).
-    - Use the Builder to construct Composite trees or other complex objects.
-- How to Implement
-    -
-- Pros and Cons
-    - Pros
-        - You can construct objects step-by-step, defer construction steps or run steps recursively.
-        - You can reuse the same construction code when building various representations of products.
-        - Single Responsibility Principle. You can isolate complex construction code from the business logic of the product.
+# Builder
+- lets you construct complex objects step by step.
+- builds a complex object using simple objects
+- The pattern allows you to produce different types and representations of an object using the same construction code.
+## Examples
+- Car Builder
+- House Builder
+## Applicability
+- Use the Builder pattern to get rid of a “telescopic constructor”.
+- Use the Builder pattern when you want your code to be able to create different representations of some product (for example, stone and wooden houses).
+- Use the Builder to construct Composite trees or other complex objects.
+## How to Implement
+-
+## Pros and Cons
+- Pros
+    - You can construct objects step-by-step, defer construction steps or run steps recursively.
+    - You can reuse the same construction code when building various representations of products.
+    - Single Responsibility Principle. You can isolate complex construction code from the business logic of the product.
 
-Prototype (Clone)
+# Prototype (Clone)
 - lets you copy existing objects without making your code dependent on their classes.
-- Solution
+- creating duplicate object while keeping performance in mind
+- involves implementing a prototype interface which tells to create a clone of the current object
+- used when creation of object directly is costly
+## Solution
 The Prototype pattern delegates the cloning process to the actual objects that are being cloned. The pattern declares a common interface for all objects that support cloning. This interface lets you clone an object without coupling your code to the class of that object. Usually, such an interface contains just a single clone method.
-- Examples
-    - Shape copy
-- Applicability
-    - Use the Prototype pattern when your code shouldn’t depend on the concrete classes of objects that you need to copy.
-    - Use the pattern when you want to reduce the number of subclasses that only differ in the way they initialize their respective objects. Somebody could have created these subclasses to be able to create objects with a specific configuration.
-- How to Implement
-    -
-- Pros and Cons
-    - Pros
-        - You can clone objects without coupling to their concrete classes.
-        - You can get rid of repeated initialization code in favor of cloning pre-built prototypes.
-        - You can produce complex objects more conveniently.
-        - You get an alternative to inheritance when dealing with configuration presets for complex objects.
+## Examples
+- Shape copy
+## Applicability
+- Use the Prototype pattern when your code shouldn’t depend on the concrete classes of objects that you need to copy.
+- Use the pattern when you want to reduce the number of subclasses that only differ in the way they initialize their respective objects. Somebody could have created these subclasses to be able to create objects with a specific configuration.
+## How to Implement
+-
+## Pros and Cons
+- Pros
+    - You can clone objects without coupling to their concrete classes.
+    - You can get rid of repeated initialization code in favor of cloning pre-built prototypes.
+    - You can produce complex objects more conveniently.
+    - You get an alternative to inheritance when dealing with configuration presets for complex objects.
 
-Singleton
+# Singleton
 - lets you ensure that a class has only one instance, while providing a global access point to this instance.
-- Problem
-    - Ensure that a class has just a single instance
-    - Provide a global access point to that instance
-Solution
-    - Make the default constructor private, to prevent other objects from using the new operator with the Singleton class.
-    - Create a static creation method that acts as a constructor. Under the hood, this method calls the private constructor to create an object and saves it in a static field. All following calls to this method return the cached object.
-- Examples
-    -
-- Applicability
-    - Use the Singleton pattern when a class in your program should have just a single instance available to all clients; for example, a single database object shared by different parts of the program.
-    - Use the Singleton pattern when you need stricter control over global variables.
-- How to Implement
-    -
-- Pros and Cons
-    - Pros
-        - You can be sure that a class has only a single instance.
-        - You gain a global access point to that instance.
-        - The singleton object is initialized only when it’s requested for the first time.
-    - Cons
-        - Violates the Single Responsibility Principle. The pattern solves two problems at the time.
-        - The Singleton pattern can mask bad design, for instance, when the components of the program know too much about each other.
-        - The pattern requires special treatment in a multithreaded environment so that multiple threads won’t create a singleton object several times.
+## Problem
+- Ensure that a class has just a single instance
+- Provide a global access point to that instance
+## Solution
+- Make the default constructor private, to prevent other objects from using the new operator with the Singleton class.
+- Create a static creation method that acts as a constructor. Under the hood, this method calls the private constructor to create an object and saves it in a static field. All following calls to this method return the cached object.
+## Examples
+-
+## Applicability
+- Use the Singleton pattern when a class in your program should have just a single instance available to all clients; for example, a single database object shared by different parts of the program.
+- Use the Singleton pattern when you need stricter control over global variables.
+## How to Implement
+-
+## Pros and Cons
+- Pros
+    - You can be sure that a class has only a single instance.
+    - You gain a global access point to that instance.
+    - The singleton object is initialized only when it’s requested for the first time.
+- Cons
+    - Violates the Single Responsibility Principle. The pattern solves two problems at the time.
+    - The Singleton pattern can mask bad design, for instance, when the components of the program know too much about each other.
+    - The pattern requires special treatment in a multithreaded environment so that multiple threads won’t create a singleton object several times.
 

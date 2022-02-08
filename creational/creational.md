@@ -1,18 +1,18 @@
-Factory Method (Virtual Constructor)
+# Factory Method (Virtual Constructor)
 - provides an interface for creating objects in a superclass, but allows subclasses to alter the type of objects that will be created.
-- Solution
+## Solution
     - The Factory Method pattern suggests that you replace direct object construction calls (using the new operator) with calls to a special factory method.
-- Examples
+## Examples
     - Logictics company
     - Cross platform UI
-- Applicability
+## Applicability
 Use the Factory Method when you
     - don’t know beforehand the exact types and dependencies of the objects your code should work with.
     - want to provide users of your library or framework with a way to extend its internal components.
     - want to save system resources by reusing existing objects instead of rebuilding them each time.
-- How to Implement
+## How to Implement
     -
-- Pros and Cons
+## Pros and Cons
     - Pros
         - You avoid tight coupling between the creator and the concrete products.
         - Single Responsibility Principle. You can move the product creation code into one place in the program, making the code easier to support.

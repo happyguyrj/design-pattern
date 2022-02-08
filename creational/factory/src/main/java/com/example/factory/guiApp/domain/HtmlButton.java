@@ -1,4 +1,4 @@
-package com.example.factory.domain;
+package com.example.factory.guiApp.domain;
 
 public class HtmlButton implements Button {
 

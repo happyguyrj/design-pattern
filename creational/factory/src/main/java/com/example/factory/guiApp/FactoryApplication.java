@@ -1,9 +1,8 @@
-package com.example.factory;
+package com.example.factory.guiApp;
 
-import com.example.factory.factory.Dialog;
-import com.example.factory.factory.HtmlDialog;
-import com.example.factory.factory.WindowsDialog;
-import org.springframework.boot.SpringApplication;
+import com.example.factory.guiApp.factory.Dialog;
+import com.example.factory.guiApp.factory.HtmlDialog;
+import com.example.factory.guiApp.factory.WindowsDialog;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication

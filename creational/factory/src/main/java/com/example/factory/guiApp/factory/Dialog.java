@@ -1,6 +1,6 @@
-package com.example.factory.factory;
+package com.example.factory.guiApp.factory;
 
-import com.example.factory.domain.Button;
+import com.example.factory.guiApp.domain.Button;
 
 public abstract class Dialog {
 

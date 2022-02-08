@@ -1,4 +1,4 @@
-package com.example.factory.domain.checkboxes;
+package com.example.factory.guiApp.domain.checkboxes;
 
 public class MacOsCheckbox implements Checkbox {
 

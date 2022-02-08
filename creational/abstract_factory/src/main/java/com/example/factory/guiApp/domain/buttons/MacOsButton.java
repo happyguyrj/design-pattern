@@ -1,4 +1,4 @@
-package com.example.factory.domain.buttons;
+package com.example.factory.guiApp.domain.buttons;
 
 public class MacOsButton implements Button {
 

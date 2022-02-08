@@ -1,39 +1,40 @@
 # Factory Method (Virtual Constructor)
 - provides an interface for creating objects in a superclass, but allows subclasses to alter the type of objects that will be created.
 ## Solution
-    - The Factory Method pattern suggests that you replace direct object construction calls (using the new operator) with calls to a special factory method.
+- The Factory Method pattern suggests that you replace direct object construction calls (using the new operator) with calls to a special factory method.
 ## Examples
-    - Logictics company
-    - Cross platform UI
+- Logictics company
+- Cross platform UI
+- OS App
 ## Applicability
 Use the Factory Method when you
     - don’t know beforehand the exact types and dependencies of the objects your code should work with.
     - want to provide users of your library or framework with a way to extend its internal components.
     - want to save system resources by reusing existing objects instead of rebuilding them each time.
 ## How to Implement
+-
+## Pros and Cons
+- Pros
+    - You avoid tight coupling between the creator and the concrete products.
+    - Single Responsibility Principle. You can move the product creation code into one place in the program, making the code easier to support.
+    - Open/Closed Principle. You can introduce new types of products into the program without breaking existing client code.
+
+# Abstract Factory
+- lets you produce families of related objects without specifying their concrete classes.
+## Solution
+- The first thing the Abstract Factory pattern suggests is to explicitly declare interfaces for each distinct product of the product family (e.g., chair, sofa or coffee table). Then you can make all variants of products follow those interfaces.
+## Examples
+- Furniture shop simulator
+## Applicability
+- Use the Abstract Factory when your code needs to work with various families of related products, but you don’t want it to depend on the concrete classes of those products—they might be unknown beforehand or you simply want to allow for future extensibility.
+## How to Implement
     -
 ## Pros and Cons
-    - Pros
-        - You avoid tight coupling between the creator and the concrete products.
-        - Single Responsibility Principle. You can move the product creation code into one place in the program, making the code easier to support.
-        - Open/Closed Principle. You can introduce new types of products into the program without breaking existing client code.
-
-Abstract Factory
-- lets you produce families of related objects without specifying their concrete classes.
-- Solution
-    - The first thing the Abstract Factory pattern suggests is to explicitly declare interfaces for each distinct product of the product family (e.g., chair, sofa or coffee table). Then you can make all variants of products follow those interfaces.
-- Examples
-    - Furniture shop simulator
-- Applicability
-    - Use the Abstract Factory when your code needs to work with various families of related products, but you don’t want it to depend on the concrete classes of those products—they might be unknown beforehand or you simply want to allow for future extensibility.
-- How to Implement
-    -
-- Pros and Cons
-    - Pros
-        - You can be sure that the products you’re getting from a factory are compatible with each other.
-        - You avoid tight coupling between concrete products and client code.
-        - Single Responsibility Principle. You can extract the product creation code into one place, making the code easier to support.
-        - Open/Closed Principle. You can introduce new variants of products without breaking existing client code.
+- Pros
+    - You can be sure that the products you’re getting from a factory are compatible with each other.
+    - You avoid tight coupling between concrete products and client code.
+    - Single Responsibility Principle. You can extract the product creation code into one place, making the code easier to support.
+    - Open/Closed Principle. You can introduce new variants of products without breaking existing client code.
 
 Builder
 - lets you construct complex objects step by step. The pattern allows you to produce different types and representations of an object using the same construction code.

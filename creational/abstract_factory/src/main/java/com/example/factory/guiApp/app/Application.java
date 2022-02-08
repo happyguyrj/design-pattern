@@ -1,8 +1,8 @@
-package com.example.factory.app;
+package com.example.factory.guiApp.app;
 
-import com.example.factory.domain.buttons.Button;
-import com.example.factory.domain.checkboxes.Checkbox;
-import com.example.factory.factory.GuiFactory;
+import com.example.factory.guiApp.domain.buttons.Button;
+import com.example.factory.guiApp.domain.checkboxes.Checkbox;
+import com.example.factory.guiApp.factory.GuiFactory;
 
 public class Application {
 

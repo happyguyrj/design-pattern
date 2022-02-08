@@ -1,9 +1,9 @@
-package com.example.factory;
+package com.example.factory.guiApp;
 
-import com.example.factory.app.Application;
-import com.example.factory.factory.GuiFactory;
-import com.example.factory.factory.MacOsFactory;
-import com.example.factory.factory.WindowsFactory;
+import com.example.factory.guiApp.app.Application;
+import com.example.factory.guiApp.factory.GuiFactory;
+import com.example.factory.guiApp.factory.MacOsFactory;
+import com.example.factory.guiApp.factory.WindowsFactory;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication

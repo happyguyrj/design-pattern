@@ -162,3 +162,20 @@
 - Cons
     -
 
+# Filter
+- enables developers to filter a set of objects using different criteria and chaining them in a decoupled way through logical operations.
+## Problem
+-
+## Solution
+-
+## Examples
+- Strong criterion
+## Applicability
+-
+## How to Implement
+-
+## Pros and Cons
+- Pros
+    -
+- Cons
+    -

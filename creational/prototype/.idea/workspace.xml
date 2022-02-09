@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="726e75fa-7433-42e0-a106-f0e6d0653946" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../factory/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../factory/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../factory/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../factory/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../factory/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../factory/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../factory/src/main/java/com/example/factory/creational/abstractFactory/furnitureApp/FurnitureApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../factory/src/main/java/com/example/factory/creational/abstractFactory/furnitureApp/app/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../factory/src/main/java/com/example/factory/creational/abstractFactory/furnitureApp/app/FurnitureApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../factory/src/main/java/com/example/factory/creational/abstractFactory/furnitureApp/chair/Chair.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../factory/src/main/java/com/example/factory/creational/abstractFactory/furnitureApp/chair/ModernChair.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../factory/src/main/java/com/example/factory/creational/abstractFactory/furnitureApp/chair/VintageChair.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../factory/src/main/java/com/example/factory/creational/abstractFactory/furnitureApp/factory/FurnitureFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../factory/src/main/java/com/example/factory/creational/abstractFactory/furnitureApp/factory/ModernFurnitureFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../factory/src/main/java/com/example/factory/creational/abstractFactory/furnitureApp/factory/VintageFurnitureFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../factory/src/main/java/com/example/factory/creational/abstractFactory/furnitureApp/sofa/ModernSofa.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../factory/src/main/java/com/example/factory/creational/abstractFactory/furnitureApp/sofa/Sofa.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../factory/src/main/java/com/example/factory/creational/abstractFactory/furnitureApp/sofa/VintageSofa.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../factory/src/main/java/com/example/factory/creational/abstractFactory/furnitureApp/table/ModernTable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../factory/src/main/java/com/example/factory/creational/abstractFactory/furnitureApp/table/Table.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../factory/src/main/java/com/example/factory/creational/abstractFactory/furnitureApp/table/VintageTable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../factory/src/main/java/com/example/factory/creational/abstractFactory/guiApp/FactoryApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../factory/src/main/java/com/example/factory/creational/abstractFactory/guiApp/app/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../factory/src/main/java/com/example/factory/creational/abstractFactory/guiApp/domain/buttons/Button.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../factory/src/main/java/com/example/factory/creational/abstractFactory/guiApp/domain/buttons/MacOsButton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../factory/src/main/java/com/example/factory/creational/abstractFactory/guiApp/domain/buttons/WindowsButton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../factory/src/main/java/com/example/factory/creational/abstractFactory/guiApp/domain/checkboxes/Checkbox.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../factory/src/main/java/com/example/factory/creational/abstractFactory/guiApp/domain/checkboxes/MacOsCheckbox.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../factory/src/main/java/com/example/factory/creational/abstractFactory/guiApp/domain/checkboxes/WindowsCheckbox.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../factory/src/main/java/com/example/factory/creational/abstractFactory/guiApp/factory/GuiFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../factory/src/main/java/com/example/factory/creational/abstractFactory/guiApp/factory/MacOsFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../factory/src/main/java/com/example/factory/creational/abstractFactory/guiApp/factory/WindowsFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../factory/src/main/java/com/example/factory/creational/abstractFactory/shapeFactory/ShapeDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../factory/src/main/java/com/example/factory/creational/abstractFactory/shapeFactory/factory/AbstractFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../factory/src/main/java/com/example/factory/creational/abstractFactory/shapeFactory/factory/FactoryProducer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../factory/src/main/java/com/example/factory/creational/abstractFactory/shapeFactory/factory/RoundedShapeFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../factory/src/main/java/com/example/factory/creational/abstractFactory/shapeFactory/factory/ShapeFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../factory/src/main/java/com/example/factory/creational/abstractFactory/shapeFactory/shape/Rectangle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../factory/src/main/java/com/example/factory/creational/abstractFactory/shapeFactory/shape/RoundedRectangle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../factory/src/main/java/com/example/factory/creational/abstractFactory/shapeFactory/shape/RoundedSquare.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../factory/src/main/java/com/example/factory/creational/abstractFactory/shapeFactory/shape/Shape.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../factory/src/main/java/com/example/factory/creational/abstractFactory/shapeFactory/shape/Square.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../factory/src/main/java/com/example/factory/creational/builder/carBuilder/BuilderApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../factory/src/main/java/com/example/factory/creational/builder/carBuilder/builders/Builder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../factory/src/main/java/com/example/factory/creational/builder/carBuilder/builders/CarBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../factory/src/main/java/com/example/factory/creational/builder/carBuilder/builders/CarManualBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../factory/src/main/java/com/example/factory/creational/builder/carBuilder/cars/Car.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../factory/src/main/java/com/example/factory/creational/builder/carBuilder/cars/CarType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../factory/src/main/java/com/example/factory/creational/builder/carBuilder/cars/Manual.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../factory/src/main/java/com/example/factory/creational/builder/carBuilder/components/Engine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../factory/src/main/java/com/example/factory/creational/builder/carBuilder/components/GPSNavigator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../factory/src/main/java/com/example/factory/creational/builder/carBuilder/components/Transmission.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../factory/src/main/java/com/example/factory/creational/builder/carBuilder/components/TripComputer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../factory/src/main/java/com/example/factory/creational/builder/carBuilder/director/Director.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../factory/src/main/java/com/example/factory/creational/factory/guiApp/FactoryApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../factory/src/main/java/com/example/factory/creational/factory/guiApp/domain/Button.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../factory/src/main/java/com/example/factory/creational/factory/guiApp/domain/HtmlButton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../factory/src/main/java/com/example/factory/creational/factory/guiApp/domain/WindowsButton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../factory/src/main/java/com/example/factory/creational/factory/guiApp/factory/Dialog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../factory/src/main/java/com/example/factory/creational/factory/guiApp/factory/HtmlDialog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../factory/src/main/java/com/example/factory/creational/factory/guiApp/factory/WindowsDialog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../factory/src/main/java/com/example/factory/creational/factory/os/FactoryApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../factory/src/main/java/com/example/factory/creational/factory/os/domain/AndroidOS.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../factory/src/main/java/com/example/factory/creational/factory/os/domain/IOS.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../factory/src/main/java/com/example/factory/creational/factory/os/domain/OS.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../factory/src/main/java/com/example/factory/creational/factory/os/domain/WindowsOS.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../factory/src/main/java/com/example/factory/creational/factory/os/factory/OSFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../factory/src/main/java/com/example/factory/creational/prototype/shape/Circle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../factory/src/main/java/com/example/factory/creational/prototype/shape/PrototypeApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../factory/src/main/java/com/example/factory/creational/prototype/shape/Rectangle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../factory/src/main/java/com/example/factory/creational/prototype/shape/Shape.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../factory/src/main/java/com/example/factory/creational/singleton/singleton1/MultiThreadedSingleton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../factory/src/main/java/com/example/factory/creational/singleton/singleton1/SingleThreadedSingleton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../factory/src/main/java/com/example/factory/creational/singleton/singleton1/SingletonApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../factory/src/main/java/com/example/factory/creational/singleton/singleton1/ThreadSafeSingleton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../factory/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../factory/src/test/java/com/example/factory/FactoryApplicationTests.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="242kUswK26yiwAITnYYf8IKP8Pi" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+  </component>
+  <component name="RunManager">
+    <configuration name="PrototypeApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.prototype.shape.PrototypeApplication" />
+      <module name="prototype" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.prototype.shape.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.PrototypeApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="726e75fa-7433-42e0-a106-f0e6d0653946" name="Changes" comment="" />
+      <created>1642836100902</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1642836100902</updated>
+    </task>
+    <servers />
+  </component>
+</project>

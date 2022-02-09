@@ -1,7 +1,7 @@
 # Adapter
 - allows objects with incompatible interfaces to collaborate.
-- Problem
-    -
+## Problem
+-
 ## Solution
 - The adapter gets an interface, compatible with one of the existing objects.
 - Using this interface, the existing object can safely call the adapter’s methods.
@@ -10,6 +10,9 @@
 ## Examples
 - hole-peg fits
 - card reader
+- Audio Adapter
+![image](https://user-images.githubusercontent.com/15718435/153110815-747ae566-fdd2-4462-bd2f-de4d87385974.png)
+
 ## Applicability
 - Use the Adapter class when you want to use some existing class, but its interface isn’t compatible with the rest of your code.
 - involves an interface which acts as a bridge which makes the functionality of concrete classes independent from interface implementer classes.
@@ -32,6 +35,8 @@
 -
 # Examples
 - TV-Radio Remote
+![image](https://user-images.githubusercontent.com/15718435/153110874-e96e28aa-2678-423c-aa17-1a7871af9d53.png)
+
 # Applicability
 - Use the Bridge pattern when you want to divide and organize a monolithic class that has several variants of some functionality (for example, if the class can work with various database servers).
 - Use the pattern when you need to extend a class in several orthogonal (independent) dimensions.
@@ -58,6 +63,7 @@
 ## Examples
 - Image editor
 - Employee
+![image](https://user-images.githubusercontent.com/15718435/153110911-7fc7b709-265a-49f9-9d60-8becedeef1f5.png)
 ## Applicability
 - Use the Composite pattern when you have to implement a tree-like object structure.
 - Use the pattern when you want the client code to treat both simple and complex elements uniformly.
@@ -81,6 +87,7 @@
 # Examples
 - Encoding and compression decorators
 - Shape decorator
+![image](https://user-images.githubusercontent.com/15718435/153110946-4d8ee809-2ceb-4b37-9880-aa20a7e0fbb2.png)
 # Applicability
 - Use the Decorator pattern when you need to be able to assign extra behaviors to objects at runtime without breaking the code that uses these objects.
 - Use the pattern when it’s awkward or not possible to extend an object’s behavior using inheritance.
@@ -105,6 +112,7 @@
 ## Examples
 - Audio mixer
 - ShapeMaker
+![image](https://user-images.githubusercontent.com/15718435/153110971-18b90dbc-42a0-437c-a355-33b407506f4f.png)
 ## Applicability
 - Use the Facade pattern when you need to have a limited but straightforward interface to a complex subsystem.
 - Use the Facade when you want to structure a subsystem into layers.
@@ -125,6 +133,7 @@
 -
 ## Examples
 - forest maker
+![image](https://user-images.githubusercontent.com/15718435/153110998-6e534d1b-1dd3-4a77-afed-ead5c4c4d3f3.png)
 ## Applicability
 - Use the Flyweight pattern only when your program must support a huge number of objects which barely fit into available RAM.
 ## How to Implement
@@ -143,7 +152,7 @@
 ## Solution
 - The Proxy pattern suggests that you create a new proxy class with the same interface as an original service object. Then you update your app so that it passes the proxy object to all of the original object’s clients. Upon receiving a request from a client, the proxy creates a real service object and delegates all the work to it.
 ## Examples
--
+![image](https://user-images.githubusercontent.com/15718435/153111035-ae2cb7fd-c1f9-417e-a7f9-be15ac52c247.png)
 ## Applicability
 - Lazy initialization (virtual proxy). This is when you have a heavyweight service object that wastes system resources by being always up, even though you only need it from time to time.
 - Access control (protection proxy). This is when you want only specific clients to be able to use the service object; for instance, when your objects are crucial parts of an operating system and clients are various launched applications (including malicious ones).
@@ -170,6 +179,7 @@
 -
 ## Examples
 - Strong criterion
+![image](https://user-images.githubusercontent.com/15718435/153111067-e5a05bdd-699c-46a9-a841-69d56aa89c5a.png)
 ## Applicability
 -
 ## How to Implement

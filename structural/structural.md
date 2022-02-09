@@ -1,13 +1,15 @@
-Adapter
+# Adapter
 - allows objects with incompatible interfaces to collaborate.
 - Problem
     -
-Solution
-    - The adapter gets an interface, compatible with one of the existing objects.
-    - Using this interface, the existing object can safely call the adapter’s methods.
-    - Upon receiving a call, the adapter passes the request to the second object, but in a format and order that the second object expects.
-- Examples
-    - hole-peg fits
+## Solution
+- The adapter gets an interface, compatible with one of the existing objects.
+- Using this interface, the existing object can safely call the adapter’s methods.
+- Upon receiving a call, the adapter passes the request to the second object, but in a format and order that the second object expects.
+- This pattern involves a single class which is responsible to join functionalities of independent or incompatible interfaces
+## Examples
+- hole-peg fits
+- card reader
 - Applicability
     - Use the Adapter class when you want to use some existing class, but its interface isn’t compatible with the rest of your code.
     - Use the pattern when you want to reuse several existing subclasses that lack some common functionality that can’t be added to the superclass.

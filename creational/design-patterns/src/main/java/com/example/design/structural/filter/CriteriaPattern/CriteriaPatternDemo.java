@@ -40,7 +40,6 @@ public class CriteriaPatternDemo {
 
         System.out.println("\nSingle Or Females: ");
         printPersons(singleOrFemale.meetCriteria(persons));
-
     }
 
     public static void printPersons(List<Person> persons){

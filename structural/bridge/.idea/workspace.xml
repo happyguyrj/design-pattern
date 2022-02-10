@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="059dd962-5a16-4bad-9677-2e64d0bdad51" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../design patterns/design-patterns/src/main/java/com/example/design/structural/adapter/pegAdapter/AdaptorApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../design patterns/design-patterns/src/main/java/com/example/design/structural/adapter/pegAdapter/adapters/SquarePegAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../design patterns/design-patterns/src/main/java/com/example/design/structural/adapter/pegAdapter/round/RoundHole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../design patterns/design-patterns/src/main/java/com/example/design/structural/adapter/pegAdapter/round/RoundPeg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../design patterns/design-patterns/src/main/java/com/example/design/structural/adapter/pegAdapter/square/SquarePeg.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../adapter/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../adapter/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../adapter/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../adapter/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../adapter/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../adapter/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../adapter/src/main/java/com/example/adaptor/AdaptorApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../adapter/src/main/java/com/example/adaptor/adapters/SquarePegAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../adapter/src/main/java/com/example/adaptor/round/RoundHole.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../adapter/src/main/java/com/example/adaptor/round/RoundPeg.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../adapter/src/main/java/com/example/adaptor/square/SquarePeg.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../adapter/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../adapter/src/test/java/com/example/adaptor/AdaptorApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bridge/BridgeApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../design patterns/design-patterns/src/main/java/com/example/design/structural/bridge/TvRadioRemote/BridgeApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bridge/devices/Device.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../design patterns/design-patterns/src/main/java/com/example/design/structural/bridge/TvRadioRemote/devices/Device.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bridge/devices/Radio.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../design patterns/design-patterns/src/main/java/com/example/design/structural/bridge/TvRadioRemote/devices/Radio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bridge/devices/Tv.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../design patterns/design-patterns/src/main/java/com/example/design/structural/bridge/TvRadioRemote/devices/Tv.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bridge/remotes/AdvanceRemote.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../design patterns/design-patterns/src/main/java/com/example/design/structural/bridge/TvRadioRemote/remotes/AdvanceRemote.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bridge/remotes/BasicRemote.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../design patterns/design-patterns/src/main/java/com/example/design/structural/bridge/TvRadioRemote/remotes/BasicRemote.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bridge/remotes/Remote.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../design patterns/design-patterns/src/main/java/com/example/design/structural/bridge/TvRadioRemote/remotes/Remote.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/bridge/BridgeApplicationTests.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="242pPMPzV055QzxlNMLMiMKeuHS" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="059dd962-5a16-4bad-9677-2e64d0bdad51" name="Changes" comment="" />
+      <created>1642838513214</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1642838513214</updated>
+    </task>
+    <servers />
+  </component>
+</project>

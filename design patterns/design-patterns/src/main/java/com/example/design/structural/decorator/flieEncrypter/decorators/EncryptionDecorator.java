@@ -1,4 +1,6 @@
-package com.example.decorator.decorators;
+package com.example.design.structural.decorator.flieEncrypter.decorators;
+
+import com.example.design.structural.decorator.flieEncrypter.DataSource;
 
 import java.util.Base64;
 

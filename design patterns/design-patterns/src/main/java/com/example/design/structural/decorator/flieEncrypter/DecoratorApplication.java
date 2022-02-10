@@ -1,12 +1,9 @@
-package com.example.decorator;
+package com.example.design.structural.decorator.flieEncrypter;
 
-import com.example.decorator.decorators.*;
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-import java.io.File;
+import com.example.design.structural.decorator.flieEncrypter.decorators.*;
 
-@SpringBootApplication
+
 public class DecoratorApplication {
 
 	public static void main(String[] args) {

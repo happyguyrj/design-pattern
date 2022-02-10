@@ -1,4 +1,4 @@
-package com.example.decorator.decorators;
+package com.example.design.structural.decorator.flieEncrypter;
 
 import java.io.*;
 

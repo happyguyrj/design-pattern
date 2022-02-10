@@ -1,13 +1,13 @@
-package com.example.design.server;
+package com.example.design.behavioural.chainOfResponsibility.serverApp.server;
 
-import com.example.design.middleware.Middleware;
+import com.example.design.behavioural.chainOfResponsibility.serverApp.middleware.Middleware;
 
 import java.util.HashMap;
 import java.util.Map;
 
 public class Server {
 
-    private Map<String, String> users = new HashMap<>();
+    private final Map<String, String> users = new HashMap<>();
     private Middleware middleware;
 
     /**

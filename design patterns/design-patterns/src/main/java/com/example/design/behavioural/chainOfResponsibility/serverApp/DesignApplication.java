@@ -1,11 +1,10 @@
-package com.example.design;
+package com.example.design.behavioural.chainOfResponsibility.serverApp;
 
-import com.example.design.middleware.Middleware;
-import com.example.design.middleware.RoleCheckMiddleware;
-import com.example.design.middleware.ThrottlingMiddleware;
-import com.example.design.middleware.UserExistsMiddleware;
-import com.example.design.server.Server;
-import org.springframework.boot.SpringApplication;
+import com.example.design.behavioural.chainOfResponsibility.serverApp.middleware.Middleware;
+import com.example.design.behavioural.chainOfResponsibility.serverApp.middleware.RoleCheckMiddleware;
+import com.example.design.behavioural.chainOfResponsibility.serverApp.middleware.ThrottlingMiddleware;
+import com.example.design.behavioural.chainOfResponsibility.serverApp.middleware.UserExistsMiddleware;
+import com.example.design.behavioural.chainOfResponsibility.serverApp.server.Server;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 import java.io.BufferedReader;

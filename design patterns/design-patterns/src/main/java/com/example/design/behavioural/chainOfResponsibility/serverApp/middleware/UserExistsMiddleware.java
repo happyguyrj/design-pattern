@@ -1,6 +1,6 @@
-package com.example.design.middleware;
+package com.example.design.behavioural.chainOfResponsibility.serverApp.middleware;
 
-import com.example.design.server.Server;
+import com.example.design.behavioural.chainOfResponsibility.serverApp.server.Server;
 
 public class UserExistsMiddleware extends Middleware {
 

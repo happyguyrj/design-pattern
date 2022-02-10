@@ -1,4 +1,4 @@
-package com.example.design.middleware;
+package com.example.design.behavioural.chainOfResponsibility.serverApp.middleware;
 
 public class RoleCheckMiddleware extends Middleware {
 

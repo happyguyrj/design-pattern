@@ -13,6 +13,30 @@ public class TreeType {
         this.otherTreeData = otherTreeData;
     }
 
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public Color getColor() {
+        return color;
+    }
+
+    public void setColor(Color color) {
+        this.color = color;
+    }
+
+    public String getOtherTreeData() {
+        return otherTreeData;
+    }
+
+    public void setOtherTreeData(String otherTreeData) {
+        this.otherTreeData = otherTreeData;
+    }
+
     public void draw(Graphics g, int x, int y) {
         g.setColor(Color.BLACK);
         g.fillRect(x - 1, y, 3, 5);

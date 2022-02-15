@@ -5,7 +5,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 import java.awt.*;
 
-@SpringBootApplication
 public class FlyweightApplication {
 
 	static int CANVAS_SIZE = 500;

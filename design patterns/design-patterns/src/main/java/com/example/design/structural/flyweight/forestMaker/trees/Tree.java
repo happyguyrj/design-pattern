@@ -16,4 +16,28 @@ public class Tree {
     public void draw(Graphics g) {
         type.draw(g, x, y);
     }
+
+    public int getX() {
+        return x;
+    }
+
+    public void setX(int x) {
+        this.x = x;
+    }
+
+    public int getY() {
+        return y;
+    }
+
+    public void setY(int y) {
+        this.y = y;
+    }
+
+    public TreeType getType() {
+        return type;
+    }
+
+    public void setType(TreeType type) {
+        this.type = type;
+    }
 }

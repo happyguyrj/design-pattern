@@ -28,6 +28,7 @@ public class CriteriaPatternDemo {
         Criteria single = new CriteriaSingle();
         Criteria singleMale = new AndCriteria(single, male);
         Criteria singleOrFemale = new OrCriteria(single, female);
+        Criteria singleAndMaleOrFemale = new AndCriteria(single, new OrCriteria(male, female));
 
         System.out.println("Males: ");
         printPersons(male.meetCriteria(persons));
@@ -40,6 +41,9 @@ public class CriteriaPatternDemo {
 
         System.out.println("\nSingle Or Females: ");
         printPersons(singleOrFemale.meetCriteria(persons));
+
+        System.out.println("\nSingle And male Or Females: ");
+        printPersons(singleAndMaleOrFemale.meetCriteria(persons));
     }
 
     public static void printPersons(List<Person> persons){

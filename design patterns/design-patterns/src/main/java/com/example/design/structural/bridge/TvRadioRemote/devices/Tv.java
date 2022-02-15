@@ -29,11 +29,7 @@ public class Tv implements Device {
     public void setVolume(int volume) {
         if (volume > 100) {
             this.volume = 100;
-        } else if (volume < 0) {
-            this.volume = 0;
-        } else {
-            this.volume = volume;
-        }
+        } else this.volume = Math.max(volume, 0);
     }
 
     @Override

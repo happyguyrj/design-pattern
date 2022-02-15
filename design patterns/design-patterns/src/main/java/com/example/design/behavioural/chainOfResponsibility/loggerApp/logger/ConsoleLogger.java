@@ -1,4 +1,4 @@
-package com.example.design.behavioural.chainOfResponsibility.logger;
+package com.example.design.behavioural.chainOfResponsibility.loggerApp.logger;
 
 public class ConsoleLogger extends AbstractLogger {
 

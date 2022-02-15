@@ -1,4 +1,9 @@
-package com.example.design.behavioural.chainOfResponsibility.logger;
+package com.example.design.behavioural.chainOfResponsibility.loggerApp;
+
+import com.example.design.behavioural.chainOfResponsibility.loggerApp.logger.AbstractLogger;
+import com.example.design.behavioural.chainOfResponsibility.loggerApp.logger.ConsoleLogger;
+import com.example.design.behavioural.chainOfResponsibility.loggerApp.logger.ErrorLogger;
+import com.example.design.behavioural.chainOfResponsibility.loggerApp.logger.FileLogger;
 
 public class ChainPatternDemo {
 

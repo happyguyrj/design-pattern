@@ -1,4 +1,4 @@
-package com.example.design.creational.singleton.singleton1;
+package com.example.design.creational.singleton;
 
 public class MultiThreadedSingleton {
 

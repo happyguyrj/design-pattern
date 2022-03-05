@@ -1,3 +1,27 @@
+# Features of Good Design
+## Code reuse
+### Levels of reuse
+#### Lowest Level
+- reuse classes
+#### Middle level
+- design patterns
+#### Highest Level
+- framework
+
+## Extensibility
+Change is the only constant thing in a programmer’s life.
+
+# Design Principles
+## Encapsulate What Varies
+- Identify the aspects of your application that vary and separate them from what stays the same.
+### Encapsulation on a method level
+Say you’re making an e-commerce website. Somewhere in your code, there’s a getOrderTotal method that calculates a grand total for the order, including taxes. We can anticipate that tax-related code might need to change in the future
+### Encapsulation on a class level
+Objects of the Order class delegate all tax-related work to a special object that does just that
+
+## Program to an Interface, not an Implementation
+- Depend on abstractions, not on concrete classes.
+
 # Design patterns
 ## Creational Design Patterns
 Creational patterns provide various object creation mechanisms, which increase flexibility and reuse of existing code.
@@ -14,7 +38,7 @@ lets you ensure that a class has only one instance, while providing a global acc
 lets you copy existing objects without making your code dependent on their classes.
 
 ### Builder pattern
-lets you construct complex objects step by step. 
+lets you construct complex objects step by step.
 
 ## Structural Design Patterns
 Structural patterns explain how to assemble objects and classes into larger structures while keeping these structures flexible and efficient.
@@ -44,7 +68,7 @@ Lets you substitute of placeholder for another object. A proxy controls access t
 Behavioral design patterns are concerned with algorithms and the assignment of responsibilities between objects.
 
 ### Chain of Responsibility
-Lets you pass a request along chain of handlers. 
+Lets you pass a request along chain of handlers.
 
 ### Command pattern
 Turns a request into standalone object that contains all information about the request
@@ -71,4 +95,5 @@ Lets you define a family of algorithms, put each into a separate class and make 
 Defines the skeleton of an algorithm in the superclass and lets subclass override specific setups of algorithm without changing its structure
 
 ### Visitor pattern
-Lets you separate algorithms from the objects on which they operate
+- Lets you separate algorithms from the objects on which they operate
+- Defines a new operation to a class without change

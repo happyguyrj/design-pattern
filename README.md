@@ -22,6 +22,38 @@ Objects of the Order class delegate all tax-related work to a special object tha
 ## Program to an Interface, not an Implementation
 - Depend on abstractions, not on concrete classes.
 
+## Favor Composition Over Inheritance
+Caveats of subclass
+- A subclass can’t reduce the interface of the superclass
+- When overriding methods you need to make sure that the new behavior is compatible with the base one
+- Inheritance breaks encapsulation of the superclass
+- Subclasses are tightly coupled to superclasses
+- Trying to reuse code through inheritance can lead to creating parallel inheritance hierarchies
+
+
+# SOLID
+## Single Responsibility Principle
+A class should have just one reason to change.
+
+## Open/Closed Principle
+Classes should be open for extension but closed for modification.
+
+## Liskov Substitution Principle
+When extending a class, remember that you should be able to pass objects of the subclass in place of objects of the parent class without breaking the client code.
+- Parameter types in a method of a subclass should match or be more abstract than parameter types in the method of the superclass.
+- The return type in a method of a subclass should match or be a subtype of the return type in the method of the superclass
+- A method in a subclass shouldn’t throw types of exceptions which the base method isn’t expected to throw
+- A subclass shouldn’t strengthen pre-conditions
+- A subclass shouldn’t weaken post-conditions
+- Invariants of a superclass must be preserved
+- A subclass shouldn’t change values of private fields of the superclass
+
+## Interface Segregation Principle
+Clients shouldn’t be forced to depend on methods they do not use.
+
+## Dependency Inversion Principle
+High-level classes shouldn’t depend on low-level classes. Both should depend on abstractions. Abstractions shouldn’t depend on details. Details should depend on abstractions
+
 # Design patterns
 ## Creational Design Patterns
 Creational patterns provide various object creation mechanisms, which increase flexibility and reuse of existing code.

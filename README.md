@@ -34,9 +34,44 @@ Caveats of subclass
 # SOLID
 ## Single Responsibility Principle
 A class should have just one reason to change.
+Example: Let's consider a User class that is responsible for both user authentication and sending emails. However, it is aligned with SRP to split these responsibilities into separate classes
+```java
+class UserAuthenticator {
+    public void authenticateUser(String username, String password) {
+        // logic for authenticating the user
+    }
+}
+
+class EmailSender {
+    public void sendEmail(String to, String subject, String message) {
+        // logic for sending an email
+    }
+}
+```
 
 ## Open/Closed Principle
 Classes should be open for extension but closed for modification.
+```java
+abstract class Customer {
+    // common properties and methods
+    
+    public abstract double calculateDiscount(double amount);
+}
+
+class RegularCustomer extends Customer {
+    public double calculateDiscount(double amount) {
+        // Discount calculation for regular customers
+        return amount * 0.1;
+    }
+}
+
+class PremiumCustomer extends Customer {
+    public double calculateDiscount(double amount) {
+        // Discount calculation for premium customers
+        return amount * 0.2;
+    }
+}
+```
 
 ## Liskov Substitution Principle
 When extending a class, remember that you should be able to pass objects of the subclass in place of objects of the parent class without breaking the client code.
@@ -47,6 +82,53 @@ When extending a class, remember that you should be able to pass objects of the 
 - A subclass shouldn’t weaken post-conditions
 - Invariants of a superclass must be preserved
 - A subclass shouldn’t change values of private fields of the superclass
+Example: Let's consider a scenario where we have a base class called Vehicle and two subclasses called Car and Motorcycle. The Vehicle class has a startEngine() method, and both subclasses override this method to provide their own implementation.
+```java
+class Vehicle {
+    public void startEngine() {
+        // Common logic to start the engine
+        System.out.println("Engine started");
+    }
+}
+
+class Car extends Vehicle {
+    public void startEngine() {
+        // Car-specific logic to start the engine
+        System.out.println("Car engine started");
+    }
+}
+
+class Motorcycle extends Vehicle {
+    public void startEngine() {
+        // Motorcycle-specific logic to start the engine
+        System.out.println("Motorcycle engine started");
+    }
+}
+```
+
+Now, let's envision a scenario where we have a method that accepts a Vehicle object and calls the startEngine() method. According to the Liskov Substitution Principle, we should be able to use any subtype of Vehicle without affecting the correctness of the program.
+```java
+class VehicleStarter {
+    public void start(Vehicle vehicle) {
+        vehicle.startEngine();
+    }
+}
+```
+We can create instances of both Car and Motorcycle, pass them to the start() method, and observe that the correct startEngine() method is invoked based on the actual object type:
+```java
+public class Main {
+    public static void main(String[] args) {
+        VehicleStarter vehicleStarter = new VehicleStarter();
+
+        Vehicle car = new Car();
+        vehicleStarter.start(car); // Prints "Car engine started"
+
+        Vehicle motorcycle = new Motorcycle();
+        vehicleStarter.start(motorcycle); // Prints "Motorcycle engine started"
+    }
+}
+```
+As demonstrated in this example, the VehicleStarter class expects a Vehicle object but can work correctly with both Car and Motorcycle objects, without any modification to its code. This adherence to the Liskov Substitution Principle ensures that the behavior of the program remains intact when substituting one subtype for another.
 
 ## Interface Segregation Principle
 Clients shouldn’t be forced to depend on methods they do not use.

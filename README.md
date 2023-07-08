@@ -53,6 +53,38 @@ Clients shouldn’t be forced to depend on methods they do not use.
 
 ## Dependency Inversion Principle
 High-level classes shouldn’t depend on low-level classes. Both should depend on abstractions. Abstractions shouldn’t depend on details. Details should depend on abstractions
+Example: Consider a UserService that depends on a specific database implementation. Instead, we can make it depend on an interface, allowing flexibility to use different databases
+```java
+interface Database {
+    void save(String data);
+}
+
+class MySQLDatabase implements Database {
+    public void save(String data) {
+        // logic for saving data in MySQL
+    }
+}
+
+class OracleDatabase implements Database {
+    public void save(String data) {
+        // logic for saving data in Oracle
+    }
+}
+
+class UserService {
+    private final Database database;
+    
+    public UserService(Database database) {
+        this.database = database;
+    }
+    
+    public void saveUser(String userData) {
+        database.save(userData);
+    }
+}
+
+```
+
 
 # Design patterns
 ## Creational Design Patterns

@@ -133,6 +133,91 @@ As demonstrated in this example, the VehicleStarter class expects a Vehicle obje
 
 ## Interface Segregation Principle
 Clients shouldn’t be forced to depend on methods they do not use.
+Example: Suppose we have an interface called Printer that defines various printing operations:
+```java
+interface Printer {
+    void print();
+    void scan();
+    void fax();
+    void photocopy();
+}
+```
+
+However, consider a scenario where not all printers support all of these operations. For instance, some printers may lack the capability to fax or scan. In this case, we can apply ISP by segregating the Printer interface into smaller, more specialized interfaces.
+```java
+interface Printer {
+    void print();
+}
+
+interface Scanner {
+    void scan();
+}
+
+interface FaxMachine {
+    void fax();
+}
+
+interface Photocopier {
+    void photocopy();
+}
+```
+
+Now we can create specific printer classes that implement the corresponding interfaces based on their capabilities:
+```java
+class MultifunctionPrinter implements Printer, Scanner, FaxMachine, Photocopier {
+    public void print() {
+        // Implementation for printing
+    }
+    
+    public void scan() {
+        // Implementation for scanning
+    }
+    
+    public void fax() {
+        // Implementation for faxing
+    }
+    
+    public void photocopy() {
+        // Implementation for photocopying
+    }
+}
+
+class SimplePrinter implements Printer {
+    public void print() {
+        // Implementation for printing
+    }
+}
+```
+
+With these smaller, focused interfaces, classes can implement just the methods that are relevant to their functionality, while avoiding unnecessary dependencies.
+
+By applying the Interface Segregation Principle (ISP), the client code can now depend on specific interfaces relevant to their needs, reducing the impact of unrelated methods.
+```java
+class PrintClient {
+    private final Printer printer;
+
+    public PrintClient(Printer printer) {
+        this.printer = printer;
+    }
+
+    public void doPrint() {
+        printer.print();
+    }
+}
+
+class ScanClient {
+    private final Scanner scanner;
+
+    public ScanClient(Scanner scanner) {
+        this.scanner = scanner;
+    }
+
+    public void doScan() {
+        scanner.scan();
+    }
+}
+```
+In this example, the PrintClient class depends only on the Printer interface, and ScanClient depends only on the Scanner interface. Thus, each client class is designed to use only the functionalities it requires, adhering to the Interface Segregation Principle.
 
 ## Dependency Inversion Principle
 High-level classes shouldn’t depend on low-level classes. Both should depend on abstractions. Abstractions shouldn’t depend on details. Details should depend on abstractions

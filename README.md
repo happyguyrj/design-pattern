@@ -82,6 +82,7 @@ When extending a class, remember that you should be able to pass objects of the 
 - A subclass shouldn’t weaken post-conditions
 - Invariants of a superclass must be preserved
 - A subclass shouldn’t change values of private fields of the superclass
+
 Example: Let's consider a scenario where we have a base class called Vehicle and two subclasses called Car and Motorcycle. The Vehicle class has a startEngine() method, and both subclasses override this method to provide their own implementation.
 ```java
 class Vehicle {
